@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="./icons/emoji-sushi.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Sushiverse</title>
+</head>
+
+
+<body>
+
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Sushiverse</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="menu.html">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex mt-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid h-100 "
+        style="display: flex;justify-content: center; background-image: url(https://images.unsplash.com/photo-1607301405418-780ee5e6dd10?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1966&q=80);">
+        <!-- <ul class="list-group" style="display: flex; align-self:center; width:50%;">
+            <li class="list-group-item list-group-item-action bg-dark text-white">Cras justo odio</li>
+            <li class="list-group-item list-group-item-action bg-dark text-white">Dapibus ac facilisis in</li>
+            <li class="list-group-item list-group-item-action bg-dark text-white">Morbi leo risus</li>
+            <li class="list-group-item list-group-item-action bg-dark text-white">Porta ac consectetur ac</li>
+            <li class="list-group-item list-group-item-action bg-dark text-white">Vestibulum at eros</li>
+        </ul> -->
+
+        <ul class="list-group" style="display: flex; align-self:center; width:50%;">
+
+            <li class="list-group-item list-group-item-action bg-dark text-white font-weight-bold">Sushi Nigiri</li>
+
+            <li class="list-group-item d-flex justify-content-between align-items-center " style="background-color: #C0C0C0;">
+                Salmon Nigiri
+                <span class="badge bg-primary rounded-pill">€2.50 per piece</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center " style="background-color: #C0C0C0;">
+                Tuna Nigiri
+                <span class="badge bg-primary rounded-pill">€3.00 per piece</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color: #C0C0C0;">
+                Shrimp Nigiri
+                <span class="badge bg-primary rounded-pill">€2.00 per piece</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color: #C0C0C0;">
+                Tamago Nigiri (Japanese omelette)
+                <span class="badge bg-primary rounded-pill">€2.00 per piece</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color: #C0C0C0;">
+                Unagi Nigiri (grilled eel)
+                <span class="badge bg-primary rounded-pill">€3.50 per piece</span>
+            </li>
+        
+            <!-- Sashimi -->
+            <li class="list-group-item list-group-item-action bg-dark text-white font-weight-bold">Sashimi</li>
+            <li class="list-group-item d-flex justify-content-between align-items-center " style="background-color: #C0C0C0;">
+                Salmon Sashimi
+                <span class="badge bg-primary rounded-pill">€12.00 for 6 pieces</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color: #C0C0C0;">
+                Tuna Sashimi
+                <span class="badge bg-primary rounded-pill">€15.00 for 6 pieces</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color: #C0C0C0;">
+                Mackerel Sashimi
+                <span class="badge bg-primary rounded-pill">€10.00 for 6 pieces</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color: #C0C0C0;">
+                Octopus Sashimi
+                <span class="badge bg-primary rounded-pill">€14.00 for 6 pieces</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color: #C0C0C0;">
+                Sea Bass Sashimi
+                <span class="badge bg-primary rounded-pill">€16.00 for 6 pieces</span>
+            </li>
+        
+            <!-- Maki Sushi -->
+            <li class="list-group-item list-group-item-action bg-dark text-white font-weight-bold">Maki Sushi</li>
+            <li class="list-group-item d-flex justify-content-between align-items-center " style="background-color: #C0C0C0;">
+                California Roll
+                <span class="badge bg-primary rounded-pill">€8.00 for 8 pieces</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color: #C0C0C0;">
+                Spicy Tuna Roll
+                <span class="badge bg-primary rounded-pill">€9.00 for 8 pieces</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color: #C0C0C0;">
+                Philadelphia Roll
+                <span class="badge bg-primary rounded-pill">€9.50 for 8 pieces</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center " style="background-color: #C0C0C0;">
+                Dragon Roll
+                <span class="badge bg-primary rounded-pill">€11.00 for 8 pieces</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color: #C0C0C0;">
+                Rainbow Roll
+                <span class="badge bg-primary rounded-pill">€10.50 for 8 pieces</span>
+            </li>
+        
+            <!-- Sushi Rolls -->
+            <li class="list-group-item list-group-item-action bg-dark text-white font-weight-bold">Sushi Rolls</li>
+            <li class="list-group-item d-flex justify-content-between align-items-center " style="background-color: #C0C0C0;">
+                Salmon Sushi Roll
+                <span class="badge bg-primary rounded-pill">€5.00 for 2 pieces</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color: #C0C0C0;">
+                Tuna Sushi Roll
+                <span class="badge bg-primary rounded-pill">€5.50 for 2 pieces</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color: #C0C0C0;">
+                Avocado Sushi Roll
+                <span class="badge bg-primary rounded-pill">€4.00 for 2
+        
+    </div>
+
+
+    <footer class="bg-dark text-white p-2 text-center">
+        Burakcan Burcak
+    </footer>
+
+
+</body>
+
+</html>
