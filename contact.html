@@ -58,22 +58,41 @@
         </div>
     </nav>
 
-    <div class="container-fluid" style="min-height: 100vh; display: flex;justify-content: center; background-image: url(https://images.unsplash.com/photo-1517048676732-d65bc937f952?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+    <div class="container-fluid" style="height: 100vh; display: flex;justify-content: center; background-image: url(https://images.unsplash.com/photo-1517048676732-d65bc937f952?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
         background-size: cover ;align-items: center; ">
-        <form class="border border-dark rounded text-white text-center" style="height:min-content; background-color: rgba(108, 117, 125, 0.7);">
-            <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        <form class="border border-dark rounded text-white text-center "
+            style="width: 60%; height:min-content; background-color: rgba(108, 117, 125, 0.7);">
+            <div class="mb-2">
+                <label for="exampleInputEmail1" class="form-label mb-0">Email address</label>
+                <input type="email" class="form-control" placeholder="Your e-mail" id="exampleInputEmail1" aria-describedby="emailHelp">
             </div>
-            <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label">Password</label>
-                <input type="password" class="form-control" id="exampleInputPassword1">
+            <div class="mb-2">
+                <label for="exampleInputFirstname" class="form-label mb-0">First name</label>
+                <input type="text" class="form-control" placeholder="Enter your first name" id="exampleInputFirstname">
             </div>
-            <div class="mb-3 form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            <div class="mb-2">
+                <label for="exampleName" class="form-label mb-0">Name</label>
+                <input type="text" placeholder="Enter your name" class="form-control" id="exampleInputName">
             </div>
+
+            <div class="mb-2">
+                <label class="mb-0" for="subject">Choose a subject</label>
+                <select id="subject" class="form-select" aria-label="Default select example">
+                    <option value="" disabled selected>Select a subject</option>
+                    <option value="1">Table reservation</option>
+                    <option value="2">Special menu request</option>
+                    <option value="3">Allergy inquiries</option>
+                    <option value="3">Service feedback</option>
+                    <option value="3">Complaints</option>
+                </select>
+            </div>
+
+
+            <div class="mb-2">
+                <label for="message" class="form-label mb-0">Your message</label>
+                <input type="text"  placeholder="Type your message" class="form-control" id="message">
+            </div>
+
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>
     </div>
