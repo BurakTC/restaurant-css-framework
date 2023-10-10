@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@1,800&family=Young+Serif&display=swap');
+
 html, body{
     margin: 0;
     padding: 0;
@@ -9,3 +11,7 @@ html, body{
     padding: 0;
 }
 
+.pictext{
+    font-family: 'Noto Serif Display', serif;
+    font-family: 'Young Serif', serif;
+}
