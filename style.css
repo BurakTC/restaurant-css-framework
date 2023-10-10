@@ -11,6 +11,27 @@ html, body{
     padding: 0;
 }
 
+.cookie-banner {
+    z-index: 99;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    display: none;
+}
+
+.accept-cookie-button {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
 .pictext{
     font-family: 'Noto Serif Display', serif;
     font-family: 'Young Serif', serif;
