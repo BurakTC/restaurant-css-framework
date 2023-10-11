@@ -11,19 +11,19 @@ This project is a concept for a franchise restaurant website created using HTML,
 ## Screenshots
 
 ### Home
-![Home](screenshots/home.png)
+![Home](./img/Sushiverse.png)
 
 ### Menu
-![Menu](screenshots/menu.png)
+![Menu](./img/screen-menu.png)
 
 ### Restaurant
-![Restaurant](screenshots/restaurant.png)
+![Restaurant](./img/screen-resto.png)
 
 ### Pictures
-![Pictures](screenshots/pictures.png)
+![Pictures](./img/screen-pictures.png)
 
 ### Contact
-![Contact](screenshots/contact.png)
+![Contact](./img/screen-contact.png)
 
 Each section of the website is represented by a screenshot. The website includes the following sections:
 
